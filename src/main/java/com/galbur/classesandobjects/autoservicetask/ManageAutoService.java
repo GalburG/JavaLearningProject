@@ -4,10 +4,11 @@ public class ManageAutoService {
     public static void main(String[] args) {
 
 //     Object Declaration and Initialisation using all types of Constructors
-
+        System.out.println();
+        System.out.println("Running the code for ManageAutoService Class. Result as follows below:");
         Car vehicleWithVinCode01 = new Car("Opel", "Astra", "Red", 2000, 320000);
         System.out.println();
-        System.out.println("this is car VIN_01 with following details" + vehicleWithVinCode01.manufacturer + "," + vehicleWithVinCode01.model
+        System.out.println("This is car VIN_01 with following details" + vehicleWithVinCode01.manufacturer + "," + vehicleWithVinCode01.model
                 + "," + vehicleWithVinCode01.colour + "," + vehicleWithVinCode01.year + "," + vehicleWithVinCode01.kmWhenEnteredInService);
 
         Car vehicleWithVinCode02 = new Car("KTR001", 252300);
@@ -15,7 +16,7 @@ public class ManageAutoService {
         vehicleWithVinCode02.manufacturer = "Ford";
         vehicleWithVinCode02.model = "Mustang";
         System.out.println();
-        System.out.println("this is car VIN_02 with following details");
+        System.out.println("This is car VIN_02 with following details");
         System.out.println("Manufacturer: " + vehicleWithVinCode02.manufacturer);
         System.out.println("Model:" + vehicleWithVinCode02.model);
         System.out.println("Colour:" + vehicleWithVinCode02.colour);

@@ -13,7 +13,6 @@ public class Tool {
 
     public Tool(String toolName) {
         this.toolName = "INSTRUMENT";
-        //       System.out.println("An object has been created with the name" + this.toolName);
     }
 
 //   Defining 2nd Constructor for "T"ool Class without parameters, that will print out "Anew tool has been created,
