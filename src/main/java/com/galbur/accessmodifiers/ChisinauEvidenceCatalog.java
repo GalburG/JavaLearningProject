@@ -4,7 +4,7 @@ import com.galbur.accessmodifiers.peopleevidence.Person;
 
 public class ChisinauEvidenceCatalog {
 
-//    Guys if you comment on not using access modifiers, pls be informed that some of them have changed to public
+//    Guys if you comment on not using access modifiers, pls be informed that some of them have been changed to public
 //    just  be able to tun the code
 
     public static int totalnumberOfPersons; // Adding a variable, public and static for this class, but out of any method
